@@ -17,5 +17,5 @@ spec:
       securityContext:
         runAsUser: 2000
       containers:
-      - name: jenkins
-        image: jenkins
+      - name: code-server
+        image: jenkins/jenkins
