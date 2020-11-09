@@ -1,8 +1,5 @@
 apiVersion: skaffold/v1beta7
 kind: Config
-build:
-  artifacts:
-  - image: jenkins
 deploy:
   kubectl:
     manifests:
